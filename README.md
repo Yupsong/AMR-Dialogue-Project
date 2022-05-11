@@ -1,12 +1,12 @@
-# AMR-Dialogue
-An implementation for paper "Semantic Representation for Dialogue Modeling".
-You may find our paper [here](https://arxiv.org/pdf/2105.10188).
+# AMR-Dialogue-Project
+This is the code base of group 8.
+
+Our project is based on a implementation for paper "Semantic Representation for Dialogue Modeling".
+You may find the paper [here](https://arxiv.org/pdf/2105.10188).
 
 # Requirements
 + python 3.6
 + pytorch 1.6
-+ Tesla V100 (32G)
-+ Memory > 150G (for DialogRE)
 
 We recommend to use conda to manage virtual environments:
 ```
@@ -30,29 +30,6 @@ bash /path/to/code/run-dual(hier).sh
 bash /path/to/code/eval.sh                   # for dialogue relation extraction
 bash /path/to/code/decode.sh                 # for dialogue response generation
 ```
-
-# Pretrained Models
-
-## DialogRE
-
-### Data-v1
-
-|Setting|  dev-F1  | dev-F1c  | test-F1 | test-F1c | checkpoint | 
-|  :----:  | :----:  |:---:|  :----:  | :----:  | :----:  | 
-| Hier  | 68.3 | 62.9 | 68.4 | 62.3 | [model](https://drive.google.com/file/d/157EpLDMct6HGzWUH36ZCudzjWCNgxh0F/view?usp=sharing) |
-| Dual  | 68.6 | 62.6  | 68.0 | 61.5 | [model](https://drive.google.com/file/d/1eNsAEZXMZPGD-WOPyPGEwsysbMLvzL6X/view?usp=sharing) |
-
-
-### Data-v2
-
-|Setting|  dev-F1  | dev-F1c  | test-F1 | test-F1c | checkpoint |
-|  :----:  | :----:  |:---:|  :----:  | :----:  | :----:  |
-| Hier  | 68.8 | 62.4  | 66.6 | 61.2 | [model](https://drive.google.com/file/d/14F0YCfBu10S_JV6-vlXHpjGyNJrMZLQC/view?usp=sharing) |
-| Dual  | 68.4 | 62.7  | 67.3 | 61.7 | [model](https://drive.google.com/file/d/1oeosWHIva6IWGFvjEYrcPxoGhd1UZ9Kv/view?usp=sharing) |
-
-# Todo
-+ clean code
-
 
 # References
 ```
