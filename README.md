@@ -1,7 +1,7 @@
 # AMR-Dialogue-Project
 This is the code base of group 8.
 
-Our project is based on a implementation for paper "Semantic Representation for Dialogue Modeling".
+Our project is based on an implementation for paper "Semantic Representation for Dialogue Modeling".
 You may find the paper [here](https://arxiv.org/pdf/2105.10188).
 
 # Requirements
